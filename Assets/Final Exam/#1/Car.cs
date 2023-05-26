@@ -31,7 +31,7 @@ public class Car : MonoBehaviour
 
         transform.Translate(movement);
 
-        transform.Rotate(Vector3.back, rotation);
+        transform.Rotate(Vector3.forward, rotation);
     }
 }
         /*
